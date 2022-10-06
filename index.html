@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIGITAL-SIGNER</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="header">
+      <h1><span>Digi</span>Signer</h1>
+      <div class="menu">
+        <a href="#" class="menu-link">UPGRADE | PRO TRIAL 14 DAYS</a>
+
+        <div class="log-in-btn">
+          <button class="drop-btn">
+            E-mail
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              class="dbt"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </button>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- container-section -->
+    <div class="container">
+      <div class="side-bar">
+        <button  class="upload-btn" id="file" name="submit">upload document</button>
+
+        <select id="cloud-option" class="cloud-btn">
+          <option class="cloud">get from cloud</option>
+          <option value="google-drive" class="cloud">google-drive</option>
+          <option value="drop-box" class="cloud">drop-box</option>
+        </select>
+        <ul>
+          <a href="#" class="doc-links">Documents</a>
+          <a href="#" class="doc-links">Waiting for me</a>
+          <a href="#" class="doc-links">Waiting for others</a>
+          <a href="#" class="doc-links">Signed</a>
+          <a href="#" class="doc1-links">Templates</a>
+          <a href="#" class="doc1-links">Bulk send</a>
+          <a href="#" class="doc1-links">Team</a>
+        </ul>
+      </div>
+      <div class="sign-area">
+        <div class="action-page">
+          <div class="input">
+          <form action="#" class="take-action">
+            <input type="checkbox" class="check-class" />
+            <button class="doc-btn">NEW FOLDER</button>
+            <button class="doc-send">SEND BUNDLE FOR SIGNING</button>
+
+            <select id="select-where" class="options" required>
+              <option value="">MORE:</option>
+              <option value="move-to" class="more-link">MOVE TO</option>
+              <option value="delete" class="more-link">DELETE</option>
+              <option value="download" class="more-link">DOWNLOAD</option>
+            </select>
+          </div>
+            <textarea class="form-input" placeholder="Search"></textarea>
+          </form>
+        </div>
+
+        <div class="action-page1">
+          <form action="#" class="take-action">
+            <div class="input">
+            <input type="checkbox" class="check-class" />
+            <img
+              src="images/sample.jpg"
+              alt="sample for signing"
+              class="sample-image"
+            />
+            
+          </div>
+          <p>Tutorial</p>
+        <div class="input-1">
+            <div id="button" class="doc-btn"><a href="signer/signer.html"> SIGN </a></div>
+            <button class="doc-send">SEND FOR SIGNING</button>
+
+            <select id="select-where" class="options" required>
+              <option value="">MORE:</option>
+              <option value="move-to" class="more-link">MOVE TO</option>
+              <option value="delete" class="more-link">DELETE</option>
+              <option value="download" class="more-link">DOWNLOAD</option>
+            </select>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- end of container section -->
+    <script src="script.js"></script>
+  </body>
+</html>

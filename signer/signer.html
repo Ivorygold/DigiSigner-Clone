@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGNATURE PAD</title>
+    <link rel="stylesheet" href="signer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <form class="signature-pad-form" action="#" method="POST">
+      <h1>YOUR-SIGNATURE</h1>
+      <p class="first-paragraph">
+        <span>D</span>
+        <span>I</span>
+        <span>G</span>
+        <span>N</span>
+        <span>I </span>
+        <span>T</span>
+        <span>Y</span>
+        <span>T</span>
+        <span>O</span>
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>R</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+      </p>
+      <p><b>SIGN HERE</b></p>
+
+      <canvas height="100" width="320" id="signing-pad"></canvas>
+      <div class="active-btn">
+        <div>
+          <p><a href="#" id="submit-button">SUBMIT</a></p>
+        </div>
+
+        <p><a href="#" id="clear-button">CLEAR</a></p>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-12">
+          <img id="sig-image" src="" alt="Your signature will go here!" />
+        </div>
+      </div>
+    </form>
+    <script src="signer.js"></script>
+  </body>
+</html>
