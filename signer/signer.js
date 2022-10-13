@@ -11,7 +11,7 @@
   const canvas = document.getElementById("signing-pad");
   const ctx = canvas.getContext("2d");
   ctx.strokeStyle = "#222222";
-  ctx.lineWidth = 1.5;
+  ctx.lineWidth = 0.4;
 
   let drawing = false;
   let mousePos = {
